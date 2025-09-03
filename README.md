@@ -14,10 +14,15 @@ and allows interactive inspection of each component.
 
 ## 📂 Example Data Format
 The viewer expects a `.txt` file with the following structure:
+
 Comp;Ref;X;Y;R;Package
+
 10080001;D2;30,702;4,258;180;MELF
+
 10080001;D1;30,691;14,766;0;MELF
+
 10140017;Q1;38,1;16,655;0;8-PQFN
+
 - **Ref** → Reference designator (R1, C1, Q1, etc.)  
 - **X, Y** → Position in mm  
 - **R** → Rotation in degrees (0–360)  
